@@ -1,0 +1,45 @@
+.iconBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40px;
+  height: 32px;
+  position: relative;
+  z-index: 50;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+
+  span {
+    background: #32cd32;
+    height: 4px;
+    width: 40px;
+    border-radius: 4px;
+    display: block;
+    transition: all 0.3s ease;
+  }
+}
+
+@media (max-width: 500px) {
+  .iconBtn {
+    width: 30px;
+    height: 25px;
+
+    span {
+      width: 30px;
+      height: 3px;
+    }
+  }
+}
+
+@media (max-width: 300px) {
+  .iconBtn {
+    width: 25px;
+    height: 20px;
+
+    span {
+      width: 25px;
+      height: 3px;
+    }
+  }
+}
