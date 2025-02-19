@@ -3,6 +3,10 @@ import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import scss from "./LayoutSite.module.scss";
 
+interface ILayoutChildrenProps {
+  children: React.ReactNode;
+}
+
 const LayoutSite: FC<ILayoutChildrenProps> = ({ children }) => {
   return (
     <div className={scss.LayoutSite}>

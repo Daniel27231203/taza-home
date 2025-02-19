@@ -1,8 +1,4 @@
-interface ILayoutChildrenProps {
-  children: React.ReactNode;
-}
-
-import { ReactElement, ReactNode } from "react";
+import { ReactNode } from "react";
 
 export interface ILinks {
   name: string;
